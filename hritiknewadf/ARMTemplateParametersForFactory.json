@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "hritiknewadf"
+		},
+		"AzureSqlDatabasse_linkserv_password": {
+			"value": ""
+		},
+		"LS_ADLS_accountKey": {
+			"value": ""
+		},
+		"AzureSqlDatabasse_linkserv_properties_typeProperties_server": {
+			"value": "hritikserver.database.windows.net"
+		},
+		"AzureSqlDatabasse_linkserv_properties_typeProperties_database": {
+			"value": "hritikazureuser"
+		},
+		"AzureSqlDatabasse_linkserv_properties_typeProperties_userName": {
+			"value": "Hritik"
+		},
+		"LS_ADLS_properties_typeProperties_url": {
+			"value": "https://hritikkblob.dfs.core.windows.net/"
+		}
+	}
+}

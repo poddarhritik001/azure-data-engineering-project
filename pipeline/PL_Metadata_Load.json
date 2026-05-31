@@ -47,7 +47,7 @@
 					},
 					"activities": [
 						{
-							"name": "Copy_Table_Metadata",
+							"name": "Copy_Table_Metadataaa",
 							"type": "Copy",
 							"dependsOn": [],
 							"policy": {

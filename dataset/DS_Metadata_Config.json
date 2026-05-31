@@ -1,0 +1,34 @@
+{
+	"name": "DS_Metadata_Config",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabasse_linkserv",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "table_name",
+				"type": "varchar"
+			},
+			{
+				"name": "source_table",
+				"type": "varchar"
+			},
+			{
+				"name": "target_folder",
+				"type": "varchar"
+			},
+			{
+				"name": "load_type",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Metadata_Config"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

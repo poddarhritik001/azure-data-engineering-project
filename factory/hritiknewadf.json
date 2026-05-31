@@ -1,0 +1,15 @@
+{
+	"name": "hritiknewadf",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "417445ef-c0dd-4f16-9816-9dc8082980a6",
+		"tenantId": "c0d22e6d-a274-4d76-a44d-adc007b2f39a"
+	}
+}
